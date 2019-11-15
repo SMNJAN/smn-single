@@ -6,10 +6,10 @@ Hast du Angst über die Sicherheit deiner Daten bei öffentlichen Hostern? Nerve
 
 # Instalation
 
-Instaliere den [`TS3 Audiobot`](https://github.com/Splamy/TS3AudioBot#install) von Splamy
-Lade alle Dateien aus dem `web` Ordner auf deinen Webserver hoch
-Importiere die SQL Datei in deine Datenbank
-Trage alle benötigten Werte in der Config ein `/vendor/smnjan/Config.php`
+- Instaliere den [`TS3 Audiobot`](https://github.com/Splamy/TS3AudioBot#install) von Splamy
+- Lade alle Dateien aus dem `web` Ordner auf deinen Webserver hoch
+- Importiere die SQL Datei in deine Datenbank
+- Trage alle benötigten Werte in der Config ein `/vendor/smnjan/Config.php`
 ```php
 const  
   DB_HOST = "",  // Die Adresse deines Datenbankservers   
@@ -28,7 +28,7 @@ const nodes = array(
 );
 ```
 **Und schon bist du bereit deine eigenen Musicbots zu steuern**
-Melde dich einfach mit dem Passwort **smnjan** an. Das kannst du später auch in deinem Profil ändern
+- Melde dich einfach mit dem Passwort **smnjan** an. Das kannst du später auch in deinem Profil ändern
 
 # FAQ
 - **Wie füge ich eine weitere Node hinzu?**
