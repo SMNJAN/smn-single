@@ -14,6 +14,7 @@ if (isset($_GET['id'])){
     $botdb = Bot::getById($_GET['id']);
     if (empty($botdb)){
         header('Location: bots.php');
+        exit;
     } else {
         $botsys = new Bot($botdb['node']);
         if ($botdb['botid'] == null){
@@ -73,6 +74,7 @@ if (isset($_GET['id'])){
     }
 } else {
     header('Location: dashboard.php');
+    exit;
 }
 ?>
 <!DOCTYPE html>

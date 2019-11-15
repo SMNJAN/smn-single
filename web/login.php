@@ -7,6 +7,7 @@ use smnjan\Auth;
 $auth = new Auth();
 if ($auth->isLoggedIn()){
     header('Location: dashboard.php');
+    exit;
 }
 $error = false;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -15,6 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $password = $_POST['password'];
         if ($auth->login($password)) {
             header('Location: dashboard.php');
+            exit;
         } else {
             $error = true;
         }

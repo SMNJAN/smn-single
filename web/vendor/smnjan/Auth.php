@@ -60,6 +60,7 @@ class Auth
     {
         if (!$this->isLoggedIn()) {
             header('Location: login.php');
+            exit;
         }
     }
 
