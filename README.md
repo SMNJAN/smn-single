@@ -1,12 +1,12 @@
 # SMNBOTS VERSION 1.0 - SINGLE
 
-Hast du Angst über die Sicherheit deiner Daten bei öffentlichen Hostern? Nerven dich die ganzen Einschränkungen? Willst du Heer deiner eigenen Bot Armee sein? Also warum nicht einfach selber hosten!
+Hast du Angst über die Sicherheit deiner Daten bei öffentlichen Hostern? Nerven dich die ganzen Einschränkungen? Willst du Herr deiner eigenen Bot Armee sein? Also warum nicht einfach selber hosten!
 
 > Das ehemalige SMNBOTS Team hat sich dazu entschieden jedem die Möglichkeit zu geben, selber seine Bots zu hosten und das auf einem gewohnten Interface. Was du hier bekommst, ist keine geklaute oder billig nachprogrammierte Version von SMNBOTS nein. Hier bekommst du die originale Version des SMNBOTS V1 Interfaces in der Single variante.
 
-# Instalation
+# Installation
 
-- Instaliere den [`TS3 Audiobot`](https://github.com/Splamy/TS3AudioBot#install) von Splamy
+- Installiere den [`TS3 Audiobot`](https://github.com/Splamy/TS3AudioBot#install) von Splamy
 - Lade alle Dateien aus dem `web` Ordner auf deinen Webserver hoch
 - Importiere die SQL Datei in deine Datenbank
 - Trage alle benötigten Werte in der Config ein `/vendor/smnjan/Config.php`
@@ -50,7 +50,7 @@ License
 ----
 lgpl-3.0
 
-**Wenn du etwas veränderst Denke bitte daran, das Links, Logos oder Texte die auf `SMNJAN`,`SMNBOTS` oder ``KUHVA`` zeigen nicht verändert werden dürfen.**
+**Wenn du etwas veränderst, denke bitte daran, das Links, Logos oder Texte die auf `SMNJAN`,`SMNBOTS` oder ``KUHVA`` zeigen nicht verändert werden dürfen.**
 > **Ausnahmen sind die Twitter Links im Footer, das Logo im Interface so wie das Profilbild**
 
 Wir machen das ganze hier gratis für dich also würde es uns sehr freuen wenn du diese kleine Limitierung einhalten könntest.
