@@ -27,6 +27,15 @@ const nodes = array(
   )
 );
 ```
+**Wichtige Information zum API Token**
+Je nach TS3AudioBot Version kann der API Token anders aufgebaut sein.
+```
+'uid:token' // API Token (bei den neusten TS3AudioBot Versionen)
+
+'uid:ts3ab:token' // API Token (von den älteren TS3AudioBot Versionen). Entferne hier einfach das :ts3ab: in der Mitte so das der API Token wie oben aussieht
+
+```
+
 **Und schon bist du bereit deine eigenen Musicbots zu steuern**
 - Melde dich einfach mit dem Passwort **smnjan** an. Das kannst du später auch in deinem Profil ändern
 
@@ -48,7 +57,7 @@ const nodes = array(
 
 License
 ----
-lgpl-3.0
+LGPL-3.0
 
 **Wenn du etwas veränderst, denke bitte daran, das Links, Logos oder Texte die auf `SMNJAN`,`SMNBOTS` oder ``KUHVA`` zeigen nicht verändert werden dürfen.**
 > **Ausnahmen sind die Twitter Links im Footer, das Logo im Interface so wie das Profilbild**
