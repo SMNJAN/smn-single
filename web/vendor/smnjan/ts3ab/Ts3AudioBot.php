@@ -40,7 +40,7 @@ class Ts3AudioBot {
     /**
      * @return string
      */
-    private function generateHeader(): string {
+    private function generateHeader() {
         return "Authorization: Basic " . base64_encode($this->username . ":" . $this->accesstoken);
     }
 
